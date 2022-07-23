@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Calculator section start -->
+    <h1 class="heading">CALCULATOR</h1>
+    <div class="calculator">
+        <input type="text" disabled class="screen" id="inp">
+        <div class="parent">
+            <button onclick="getBtnValue(1)">1</button>
+            <button onclick="getBtnValue(2)">2</button>
+            <button onclick="getBtnValue(3)">3</button>
+            <button onclick="getBtnValue('+')">+</button>
+            <button onclick="getBtnValue(4)">4</button>
+            <button onclick="getBtnValue(5)">5</button>
+            <button onclick="getBtnValue(6)">6</button>
+            <button onclick="getBtnValue('-')">-</button>
+            <button onclick="getBtnValue(7)">7</button>
+            <button onclick="getBtnValue(8)">8</button>
+            <button onclick="getBtnValue(9)">9</button>
+            <button onclick="getBtnValue('*')">*</button>
+            <button onclick="getBtnValue(0)">0</button>
+            <button onclick="clearResult()">c</button>
+            <button onclick="getResult()">=</button>
+            <button onclick="getBtnValue('/')">/</button>
+        </div>
+    </div>
+<!-- Calculator section end -->
+
+<!-- Image slider section start -->
+    <h1 class="head">IMAGE SLIDER</h1>
+<div>
+    <div class="main">
+       <img src="./images/image1.jpg" id="slider-img" alt="">
+    </div>
+    <div class="slider-Btn">
+       <button class="Btn" onclick="goprev()">Previous</button>
+       <button class="Btn" onclick="gonext()">Next</button>
+    </div>
+  </div>
+<!-- Image slider section end -->
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
